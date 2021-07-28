@@ -332,7 +332,7 @@ HANDLE OpenDivert(string host, int port) {
     filters.append(" or inbound && tcp.SrcPort==" + std::to_string(port) + " && ip.SrcAddr==" + host.c_str() + ")");
     HANDLE handle = WinDivertOpen(
         filters.c_str(),
-        WINDIVERT_LAYER_NETWORK, 800, 0
+        WINDIVERT_LAYER_NETWORK, 0, 0
     );
     if (host.empty())
         return INVALID_HANDLE_VALUE;
