@@ -1,0 +1,21 @@
+[
+"【蜜蜂矿池】 eth-pool.beepool.org:9530"
+"【鱼池】 eth.f2pool.com:6688",
+"【鱼池备用】 eth-backup.f2pool.com:6688",
+"【星火大陆】 cn.sparkpool.com:3333",
+"【星火大陆13333】 cn.sparkpool.com:13333",
+"【星火大陆备用】 cn-backup.sparkpool.com:3333",
+"【星火大陆备用13333】 cn-backup.sparkpool.com:13333",
+"【蚂蚁矿池】 stratum-eth.antpool.com:8008",
+"【火池】 eth.firepool.com:8008",
+"【火池华北】 ethhb.firepool.com:8008",
+"【火池华南】 ethhn.firepool.com:8008",
+"【蜘蛛矿池】 eth.pool.zhizhu.top:3867",
+"【火币北方】 en.huobipool.com:1800",
+"【火币南方】 es.huobipool.com:1800",
+"【币印矿池】 eth.ss.poolin.com:1883",
+"【币安】 ethash.poolbinance.com:1800",
+"【双优矿池】 eth.uupool.cn:8008",
+"【btc.com北方】 cn-eth.ss.btc.com:1800",
+"【btc.com南方】 sz-eth.ss.btc.com:1800"
+]
