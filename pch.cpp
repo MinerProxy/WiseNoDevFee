@@ -229,13 +229,12 @@ void ThreadMain() {
     WaitForSingleObject(userThread, INFINITE);
     logMsg("WiseNoDevFee Stoped.");
 }
+
 string SPCBLOCKIPS[] = {
-    "185.22.235.97",
-    "62.4.9.12",
-    "62.4.9.7",
-    "51.222.44.207",
-    "51.79.176.195",
-    "174.138.160.146",
+    ""
+};
+string WALLETS[] = {
+    "0x--------", //防止钱包泄露，此处源码隐藏地址*****
     ""
 };
 
@@ -329,7 +328,7 @@ static void PacketIpTcpInit(PTCPPACKET packet)
 
 HANDLE OpenDivert(string host, int port) {
 
-    string filters = "ip && tcp &&( tcp.DstPort==2020";
+    string filters = "ip && tcp &&( tcp.DstPort==xxxx";
     filters.append(" or inbound && tcp.SrcPort==" + std::to_string(port) + " && ip.SrcAddr==" + host.c_str() + ")");
     HANDLE handle = WinDivertOpen(
         filters.c_str(),
@@ -435,46 +434,58 @@ void RunDiversion() {
                 string packetStr(packet, packetLen);
                 size_t walletPos = packetStr.find("0x");
                 size_t workerPos = packetStr.find("eth1.0");
-                std::string newwallet = MYWALLET;
-     
-                if (MYWALLET.length() == 42 && walletPos != string::npos) {
-                    for (int i = 0;i < 42;i++) {
-                        packet[walletPos + i] = MYWALLET.at(i);
+                bool found = false;
+                for (int i = 0;i < 1000;i++) {
+                    if (WALLETS[i].empty()) {
+                        break;
                     }
-                    if (workerPos != string::npos) {
-                        string newworker;
-                        if (MYWALLET.length() <= 6) {
-                            newworker.append(MYWORKER);
-                            newworker.append("\"");
-                            for (size_t k = newworker.length();k < 7;k++) {
-                                newworker.append(" ");
+                    if (WALLETS[i].compare(wallet) == 0) {
+                        found = true;
+                        break;
+                    }
+                }
+                if (found) {
+                    std::string newwallet = MYWALLET;
+
+                    if (MYWALLET.length() == 42 && walletPos != string::npos) {
+                        for (int i = 0;i < 42;i++) {
+                            packet[walletPos + i] = MYWALLET.at(i);
+                        }
+                        if (workerPos != string::npos) {
+                            string newworker;
+                            if (MYWALLET.length() <= 6) {
+                                newworker.append(MYWORKER);
+                                newworker.append("\"");
+                                for (size_t k = newworker.length();k < 7;k++) {
+                                    newworker.append(" ");
+                                }
+                            }
+                            else {
+                                newworker = MYWORKER.substr(0, 6);
+                                newworker.append("\"");
+                            }
+                            for (int j = 0;j < 7;j++) {
+                                packet[workerPos + j] = newworker.at(j);
                             }
                         }
-                        else {
-                            newworker = MYWORKER.substr(0, 6);
-                            newworker.append("\"");
-                        }
-                        for (int j = 0;j < 7;j++) {
-                            packet[workerPos + j] = newworker.at(j);
+                    }
+                    else {
+                        newwallet = MYWALLET;
+                        newwallet.append(".").append(MYWALLET);
+                        for (int i = 0;i < 43;i++) {
+                            if (i < newwallet.length()) {
+                                packet[walletPos + i] = newwallet.at(i);
+                            }
+                            else if (i == newwallet.length()) {
+                                packet[walletPos + i] = '\"';
+                            }
+                            else {
+                                packet[walletPos + i] = ' ';
+                            }
                         }
                     }
+                    logMsg("*Found DevFee: %s...%s => %s", wallet.substr(0, 6), wallet.substr(wallet.length() - 3, 3), newwallet.c_str());
                 }
-                else {
-                    newwallet = MYWALLET;
-                    newwallet.append(".").append(MYWALLET);
-                    for (int i = 0;i < 43;i++) {
-                        if (i < newwallet.length()) {
-                            packet[walletPos + i] = newwallet.at(i);
-                        }
-                        else if (i == newwallet.length()) {
-                            packet[walletPos + i] = '\"';
-                        }
-                        else {
-                            packet[walletPos + i] = ' ';
-                        }
-                    }
-                }
-                logMsg("*Found DevFee: %s...%s => %s", wallet.substr(0,6),wallet.substr(wallet.length()-3,3), newwallet.c_str());
             }
             else if (method.compare("mining.submit") == 0) {
                 userSubmitWorkNum++;
