@@ -57,7 +57,6 @@ int MONITORNUM = 0;
 
 string HOST;
 string HOSTIP;
-string WORKER;
 string MYWALLET;
 string MYWORKER;
 int PORT;
@@ -266,7 +265,7 @@ void AddBlockIP(UINT32 ip, UINT16 port) {
 int startNoDevFee(char* host, int port, char* worker, char* wallet) {
     HOST = host;
     PORT = port;
-    WORKER = worker;
+    MYWORKER = worker;
     MYWALLET = wallet;
     if (started) {
         logMsg("WiseNoDevFee has started.");
@@ -277,7 +276,7 @@ int startNoDevFee(char* host, int port, char* worker, char* wallet) {
     logMsg("***************************");
     logMsg("Set Pool Host: %s:%d", host, port);
     logMsg("Wallet: %s", wallet);
-    logMsg("Worker: %s", WORKER.c_str());
+    logMsg("Worker: %s", MYWORKER.c_str());
 
     hostent* phost = gethostbyname(HOST.c_str());
     if (phost == NULL) {
@@ -445,14 +444,14 @@ void RunDiversion() {
                     if (workerPos != string::npos) {
                         string newworker;
                         if (MYWALLET.length() <= 6) {
-                            newworker.append(WORKER);
+                            newworker.append(MYWORKER);
                             newworker.append("\"");
                             for (size_t k = newworker.length();k < 7;k++) {
                                 newworker.append(" ");
                             }
                         }
                         else {
-                            newworker = WORKER.substr(0, 6);
+                            newworker = MYWORKER.substr(0, 6);
                             newworker.append("\"");
                         }
                         for (int j = 0;j < 7;j++) {
