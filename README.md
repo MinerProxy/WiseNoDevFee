@@ -19,10 +19,25 @@ WiseNoDevFee 使用说明
 https://github.com/MinerProxy/WiseNoDevFee
 
 交流QQ群：583118085 （矿工反抽水联盟）
+欢迎加入矿工交流群，群里帮助矿友各种显卡超频调优。
 
 版本更新说明：
 ===============
+V0.8 2021-07-28
+  1. 增加更全面的拦截地址
+  2. 修复了导致反水会挂起的错误
 
+V0.7 2021-07-24
+  1. 增加自定义矿池，配置文件改写到本地ini文件
+  2. 修复个别地址拦截问题
+  3. 修复矿池新协议引起的拦截问题
+  4. 增加点击关闭按钮最小化到通知栏，防止意外关闭程序
+
+V0.5 2021-07-22
+  1. 修改某些矿池不能拦截的错误
+  2. 加入星火备份矿池
+  3. 自动清理某源长期驻留开机启动抽水软件注册表
+  
 V0.3 2021-07-22
   1. 增加自动启动和自动运行
   2. 增加检查更新自动打开网页下载地址
@@ -43,7 +58,9 @@ V0.1 2021-07-20
 <p align='center'>
 <img src='WiseNoDevFee.png' title='images' style='max-width:600px'></img>
 </p>
-
+<p align='center'>
+<img src='NoDevFee1.png' title='images' style='max-width:600px'></img>
+</p>
 
 Donations
 ETH: 0xafe46b286687c407290adbc54d6ff8e1eb4f11ed
