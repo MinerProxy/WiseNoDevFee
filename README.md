@@ -5,7 +5,7 @@ Support pool and wallet，poll account, worker name.
 WiseNoDevFee 使用说明
 =====================
 
-##目前仅支持GMiner, 凤凰内核（Phoenix Miner）反抽水##
+##目前仅支持GMiner, PhoenixMiner, Claymore反抽水##
 
 将压缩文件解压之后，运行WiseNoDevFee.exe文件，设置好钱包地址，
 点击开始按钮，即开始反抽水，反水成功会自动打印拦截份额。
