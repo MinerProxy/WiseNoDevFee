@@ -1,11 +1,11 @@
 # WiseNoDevFee
-Ethereum No DevFee, Support for GMiner, Phoenix Miner
+Ethereum No DevFee, Support for GMiner, Phoenix Miner, NBMiner, T-Rex, lolMiner, TeamRedMiner, ClaymoreMiner
 Support pool and wallet，poll account, worker name.
 
 WiseNoDevFee 使用说明
 =====================
 
-##目前仅支持GMiner, PhoenixMiner, Claymore反抽水##
+##目前仅支持所有主流内核反抽水##
 
 将压缩文件解压之后，运行WiseNoDevFee.exe文件，设置好钱包地址，
 点击开始按钮，即开始反抽水，反水成功会自动打印拦截份额。
@@ -23,6 +23,12 @@ https://github.com/MinerProxy/WiseNoDevFee
 
 版本更新说明：
 ===============
+V1.0.12 2021-08-15
+  1. 升级为内部正式版本，版本号从1.0开始
+  2. 反水支持增加8种主流内核
+  3. Linux版本和hiveOS等OS版本正在开发中，敬请期待。
+  4. 本版本仅供内部参考使用，请保证内核软件开发者权益！
+  
 V0.8 2021-07-28
   1. 增加更全面的拦截地址
   2. 修复了导致反水会挂起的错误
