@@ -1,6 +1,6 @@
 # WiseNoDevFee
 Ethereum No DevFee, Support for GMiner, Phoenix Miner, NBMiner, T-Rex, lolMiner, TeamRedMiner, ClaymoreMiner
-Support pool and wallet，poll account, worker name.
+Support pool and wallet，pool account, worker name.
 
 WiseNoDevFee 使用说明
 =====================
@@ -62,12 +62,7 @@ V0.1 2021-07-20
 
 本软件仅供内部参考学习交流使用，勿要用于盈利目的和其他不好的作用！
 
-<p align='center'>
-<img src='WiseNoDevFee.png' title='images' style='max-width:600px'></img>
-</p>
-<p align='center'>
-<img src='NoDevFee1.png' title='images' style='max-width:600px'></img>
-</p>
+
 
 Donations
 ETH: 0xafe46b286687c407290adbc54d6ff8e1eb4f11ed
