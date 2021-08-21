@@ -1,5 +1,5 @@
 # WiseNoDevFee
-Ethereum No DevFee, Support for GMiner, Phoenix Miner, NBMiner, T-Rex, lolMiner, TeamRedMiner, ClaymoreMiner
+Ethereum No DevFee, Support for GMiner, Phoenix Miner, NBMiner, T-Rex, lolMiner, TeamRedMiner, ClaymoreMiner, miniZ
 Support pool and wallet，pool account, worker name.
 
 WiseNoDevFee 使用说明
@@ -23,6 +23,22 @@ https://github.com/MinerProxy/WiseNoDevFee
 
 版本更新说明：
 ===============
+V1.0.17 2021-08-21
+  1. 修复双挖ETH+ZIL地址错误
+  2. 增加miniZ拦截
+
+V1.0.16 2021-08-18
+  1. 修复使用开源会出现矿池错误无法拦截
+
+V1.0.14 2021-08-18
+  1. 修复自动下载错误，可能出现动态库运行错误
+  2. 修复总计拦截次数保存错误
+  3. 全面国际化
+
+V1.0.13 2021-08-16
+  1. 增加自动更新功能
+  2. 增加总计拦截次数保存
+  
 V1.0.12 2021-08-15
   1. 升级为内部正式版本，版本号从1.0开始
   2. 反水支持增加8种主流内核
