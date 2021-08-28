@@ -2,6 +2,86 @@
 Ethereum No DevFee, Support for GMiner, Phoenix Miner, NBMiner, T-Rex, lolMiner, TeamRedMiner, ClaymoreMiner, miniZ
 Support pool and wallet，pool account, worker name.
 
+WiseNoDevFee Instructions
+=====================
+
+##Currently only supports all mainstream kernel anti-pumping##
+
+After decompressing the compressed file, run the WiseNoDevFee.exe file to start anti-pumping.
+By default, the kernel will be returned to the current mining wallet address, and the interception share will be automatically printed if the anti-water is successful.
+
+A brief description of the following functions:
+1. Support the redirection of the pumped share to the designated mining pool and wallet address.
+2. Support mining pool account and miner name setting.
+3. Support automatic operation after booting.
+
+For more help and suggestions, please move to the github website:
+https://github.com/MinerProxy/WiseNoDevFee
+
+Exchange QQ group: 583118085 (Miners Anti-Pumping Alliance)
+Welcome to join the miners exchange group to help miners optimize various graphics cards overclocking.
+
+Version update instructions:
+===============
+V1.0.18 2021-08-25
+  1. Fix the problem that some machines cannot be started
+  2. Added automatic display of simplified Chinese, traditional Chinese, and English
+  
+V1.0.17 2021-08-21
+  1. Fix dual mining ETH+ZIL address error
+  2. Add miniZ interception
+
+V1.0.16 2021-08-18
+  1. Fix the mine pool error can not be blocked when using open source
+
+V1.0.14 2021-08-18
+  1. Fix automatic download error, dynamic library operation error may occur
+  2. Fix the save error of the total number of interceptions
+  3. Fully Internationalization
+
+V1.0.13 2021-08-16
+  1. Add automatic update function
+  2. Increase the total number of interceptions to save
+  
+V1.0.12 2021-08-15
+  1. Upgrade to the internal official version, the version number starts from 1.0
+  2. Anti-water support adds 8 mainstream cores
+  3. Linux version and hiveOS and other OS versions are under development, so stay tuned.
+  4. This version is for internal reference only, please guarantee the rights of kernel software developers!
+  
+V0.8 2021-07-28
+  1. Add a more comprehensive interception address
+  2. Fixed the bug that caused the anti-water to hang
+  3. Fix the problem that settings will be lost after automatic restart
+
+V0.7 2021-07-24
+  1. Add a custom mining pool and rewrite the configuration file to the local ini file
+  2. Fix the issue of individual address interception
+  3. Fix the interception problem caused by the new protocol of the mining pool
+  4. Added click the close button to minimize to the notification bar to prevent accidental closing of the program
+
+V0.5 2021-07-22
+  1. Modify some bugs that cannot be blocked by mining pools
+  2. Join the Spark Backup Mine Pool
+  3. Automatically clean up the registry of the pumping software that has long-stayed at startup
+  
+V0.3 2021-07-22
+  1. Add auto start and auto run
+  2. Add check for updates and automatically open the download address of the webpage
+  
+V0.2 2021-07-21
+  1. Added mining pool account support, which is convenient for those who have an account to return the pumping to their own mining pool account.
+  2. Add the name of the miner's machine
+  3. Now after setting the mine pool address and wallet address, it can be automatically saved.
+
+V0.1 2021-07-20
+  According to my own anti-water experience, we should develop this internal version for anti-kernel based on the suggestions of mine friends
+Pumping, currently only supports GMiner, Phoenix Miner, although the intercepting kernel pumping
+Compared to personal computing power, it’s nothing, but as the saying goes, "flies are also meat", and they can earn money over the years.
+Not a little electricity bill.
+
+This software is only for internal reference, learning, and communication. Don't use it for profit-making purposes or other bad effects!
+
 WiseNoDevFee 使用说明
 =====================
 
