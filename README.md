@@ -87,7 +87,7 @@ This software is only for internal reference, learning, and communication. Don't
 <a id="chinese">WiseNoDevFee 使用说明</a>
 =====================
 
-##目前仅支持所有主流内核反抽水##
+##目前支持所有主流内核反抽水##
 
 将压缩文件解压之后，运行WiseNoDevFee.exe文件即可开始反抽水，
 缺省会把内核抽水返还到当前挖矿钱包地址，反水成功会自动打印拦截份额。
