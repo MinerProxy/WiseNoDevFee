@@ -4,12 +4,12 @@ Support pool and wallet，pool account, worker name.
 
 <a href="#chinese">《WiseNoDevFee 使用说明》</a>
 
-WiseNoDevFee Instructions
+About WiseNoDevFee
 =====================
 
-##Currently only supports all mainstream kernel anti-pumping##
+##Supports all mainstream kernel No DevFee##
 
-After decompressing the compressed file, run the WiseNoDevFee.exe file to start anti-pumping.
+After decompressing the compressed file, run the WiseNoDevFee.exe file to start No DevFee.
 By default, the kernel will be returned to the current mining wallet address, and the interception share will be automatically printed if the anti-water is successful.
 
 A brief description of the following functions:
@@ -20,7 +20,7 @@ A brief description of the following functions:
 For more help and suggestions, please move to the github website:
 https://github.com/MinerProxy/WiseNoDevFee
 
-Exchange QQ group: 583118085 (Miners Anti-Pumping Alliance)
+Exchange QQ group: 583118085 (Miners NoDevFee Alliance)
 Welcome to join the miners exchange group to help miners optimize various graphics cards overclocking.
 
 Version update instructions:
