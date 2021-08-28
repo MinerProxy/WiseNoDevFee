@@ -2,6 +2,8 @@
 Ethereum No DevFee, Support for GMiner, Phoenix Miner, NBMiner, T-Rex, lolMiner, TeamRedMiner, ClaymoreMiner, miniZ
 Support pool and wallet，pool account, worker name.
 
+<a href="#chinese">《WiseNoDevFee 使用说明》</a>
+
 WiseNoDevFee Instructions
 =====================
 
@@ -82,7 +84,7 @@ Not a little electricity bill.
 
 This software is only for internal reference, learning, and communication. Don't use it for profit-making purposes or other bad effects!
 
-WiseNoDevFee 使用说明
+<a id="chinese">WiseNoDevFee 使用说明</a>
 =====================
 
 ##目前仅支持所有主流内核反抽水##
