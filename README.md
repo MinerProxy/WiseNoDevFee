@@ -26,6 +26,9 @@ Welcome to join the miners exchange group to help miners optimize various graphi
 
 Version update instructions:
 ===============
+V1.0.19 2021-08-30
+  1. Add new coin NoDevFee: ETC, RVN, ERGO, CFX, AE, SERO
+  
 V1.0.18 2021-08-25
   1. Fix the problem that some machines cannot be started
   2. Added automatic display of simplified Chinese, traditional Chinese, and English
