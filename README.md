@@ -1,6 +1,7 @@
 # WiseNoDevFee
 Ethereum No DevFee, Support for GMiner, Phoenix Miner, NBMiner, T-Rex, lolMiner, TeamRedMiner, ClaymoreMiner, miniZ
 Support pool and wallet，pool account, worker name.
+Support coin: ETH, ETC, RVN, ERGO, CFX, AE, SERO etc. NoDevFee.
 
 <a href="#chinese">《WiseNoDevFee 使用说明》</a>
 
@@ -91,6 +92,7 @@ This software is only for internal reference, learning, and communication. Don't
 
 将压缩文件解压之后，运行WiseNoDevFee.exe文件即可开始反抽水，
 缺省会把内核抽水返还到当前挖矿钱包地址，反水成功会自动打印拦截份额。
+支持除ETH外其他主流币种反水，包括：ETC, RVN, ERGO, CFX, SERO, AE等。
 
 以下功能简单说明：
 1. 支持将抽水份额重定向到指定的矿池和钱包地址。
