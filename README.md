@@ -3,7 +3,7 @@ Ethereum No DevFee, Support for GMiner, Phoenix Miner, NBMiner, T-Rex, lolMiner,
 Support pool and wallet，pool account, worker name.
 Support coin: ETH, ETC, RVN, ERGO, CFX, AE, SERO etc. NoDevFee.
 
-支持主流9种内核反抽水，支持除ETH外其他主流币种反水，包括：ETC, RVN, ERGO, CFX, SERO, AE等。
+支持主流9种内核反抽水，支持包括ETH及其他主流币种反水，包括：ETH, ETC, RVN, ERGO, CFX, SERO, AE等。
 
 <a href="#engish">《About WiseNoDevFee》</a><br>
 <a href="#chinese">《WiseNoDevFee 使用说明》</a><br>
