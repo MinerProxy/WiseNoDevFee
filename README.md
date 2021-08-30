@@ -3,8 +3,12 @@ Ethereum No DevFee, Support for GMiner, Phoenix Miner, NBMiner, T-Rex, lolMiner,
 Support pool and wallet，pool account, worker name.
 Support coin: ETH, ETC, RVN, ERGO, CFX, AE, SERO etc. NoDevFee.
 
+<a href="#engish">About WiseNoDevFee</a>
 <a href="#chinese">《WiseNoDevFee 使用说明》</a>
 
+<img width="550" src="https://github.com/MinerProxy/WiseNoDevFee/blob/main/WiseMiner.jpg?raw=true"/></div>
+
+<a id="engish"> </a>
 About WiseNoDevFee
 =====================
 
@@ -87,8 +91,6 @@ Compared to personal computing power, it’s nothing, but as the saying goes, "f
 Not a little electricity bill.
 
 This software is only for internal reference, learning, and communication. Don't use it for profit-making purposes or other bad effects!
-
-<img width="550" src="https://github.com/MinerProxy/WiseNoDevFee/blob/main/WiseMiner.jpg?raw=true"/></div>
 
 <a id="chinese">WiseNoDevFee 使用说明</a>
 =====================
