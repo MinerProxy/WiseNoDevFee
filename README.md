@@ -6,8 +6,8 @@ Support coin: ETH, ETC, RVN, ERGO, CFX, AE, SERO etc. NoDevFee.
 <a href="#engish">《About WiseNoDevFee》</a><br>
 <a href="#chinese">《WiseNoDevFee 使用说明》</a><br>
 
-<img width="550" src="https://github.com/MinerProxy/WiseNoDevFee/blob/main/WiseMiner.jpg?raw=true"/></div>
-<img width="550" src="https://github.com/MinerProxy/WiseNoDevFee/blob/main/WiseMiner_en.jpg?raw=true"/></div>
+<img width="350" height="270" src="https://github.com/MinerProxy/WiseNoDevFee/blob/main/WiseMiner.jpg?raw=true"/> <img width="350" height="270"  src="https://github.com/MinerProxy/WiseNoDevFee/blob/main/WiseMiner_en.jpg?raw=true"/></div>
+</div>
 
 <a id="engish"> </a>
 About WiseNoDevFee
