@@ -88,6 +88,8 @@ Not a little electricity bill.
 
 This software is only for internal reference, learning, and communication. Don't use it for profit-making purposes or other bad effects!
 
+<img width="550" src="https://github.com/MinerProxy/WiseNoDevFee/blob/master/WiseMiner.png"/></div>
+
 <a id="chinese">WiseNoDevFee 使用说明</a>
 =====================
 
