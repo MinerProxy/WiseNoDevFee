@@ -16,7 +16,7 @@ Support coin: ETH, ETC, RVN, ERGO, CFX, AE, SERO etc. NoDevFee.
 About WiseNoDevFee
 =====================
 
-##Supports all mainstream kernel No DevFee##
+##Supports all mainstream Miners No DevFee##
 
 After decompressing the compressed file, run the WiseNoDevFee.exe file to start No DevFee.
 By default, the kernel will be returned to the current mining wallet address, and the interception share will be automatically printed if the anti-water is successful.
