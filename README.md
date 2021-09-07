@@ -1,5 +1,5 @@
 # WiseNoDevFee
-Ethereum No DevFee, Support for GMiner, Phoenix Miner, NBMiner, T-Rex, lolMiner, TeamRedMiner, ClaymoreMiner, miniZ
+Ethereum No DevFee, Support for GMiner, Phoenix Miner, NBMiner, T-Rex, lolMiner,  ClaymoreMiner, miniZ
 Support pool and wallet，pool account, worker name.
 Support coin: ETH, ETC, RVN, ERGO, CFX, AE, SERO etc. NoDevFee.
 
