@@ -34,25 +34,19 @@ Welcome to join the miners exchange group to help miners optimize various graphi
 
 Version update instructions:
 ===============
-V1.0.25 2021-09-14
+V1.0.26 2021-09-14
    1. Fix the gminer connection problem, fix the gminer interception address to increase the interception rate
-
-V1.0.23 2021-09-13
-   1. Fix the network connection problem of the mining pool
-   2. Improve the tips for intercepting wallets
-   3. Add IPV6 support and fix the problem that Phoenix 5.7b cannot be intercepted when IPV6 is available
-
-V1.0.21 2021-09-12
-   1. Fix ergo anti-water update, currently supports NBMiner/T-Rex
-   2. Increase the ease of pumping interception by miners
-   3. Increase the timeout error message of the anti-water connection to the mining pool
-   4. Added the function of checking for updates and updating the latest version online
-   5. Add current directory log.txt log
-   6. Fix eth+zil double mining anti-water login failure problem
-   7. Add the function of restarting failure retry to solve the problem that the automatic startup sometimes fails because the network is not connected.
-
-V1.0.20 2021-09-09
-   1. Fix the incorrect name of mine pools such as Spark
+   2. Fix the network connection problem of the mining pool
+   3. Improve the tips for intercepting wallets
+   4. Add IPV6 support and fix the problem that Phoenix 5.7b cannot be intercepted when IPV6 is available
+   5. Fix ergo anti-water update, currently supports NBMiner/T-Rex
+   6. Increase the ease of pumping interception by miners
+   7. Increase the timeout error message of the anti-water connection to the mining pool
+   8. Added the function of checking for updates and updating the latest version online
+   9. Add current directory log.txt log
+   10. Fix eth+zil double mining anti-water login failure problem
+   11. Add the function of restarting failure retry to solve the problem that the automatic startup sometimes fails because the network is not connected.
+   12. Fix the incorrect name of mine pools such as Spark
    
 V1.0.19 2021-08-30
   1. Add new coin NoDevFee: ETC, RVN, ERGO, CFX, AE, SERO
@@ -140,23 +134,17 @@ https://github.com/MinerProxy/WiseNoDevFee
 ===============
 V1.0.25 2021-09-14
   1. 修复gminer连接问题, 修复了gminer拦截地址提高拦截率
-
-V1.0.23 2021-09-13
-  1. 修复矿池网络连接问题
-  2. 完善拦截钱包提示
-  3. 增加IPV6支持，修复Phoenix 5.7b在有IPV6时拦截不到的问题
-
-V1.0.21 2021-09-12
-  1. 修复ergo反水更新，目前支持NBMiner/T-Rex
-  2. 增加轻松矿工抽水拦截
-  3. 增加反水连接矿池超时错误提示
-  4. 增加检查更新可以在线更新最新版本功能
-  5. 增加当前目录log.txt日志
-  6. 修复eth+zil双挖反水登录失败问题
-  7. 增加启动失败重试功能，解决自动启动有时因网络未连接导致启动失败
-
-V1.0.20 2021-09-09
-  1. 修复星火等矿池矿机名错误
+  2. 修复矿池网络连接问题
+  3. 完善拦截钱包提示
+  4. 增加IPV6支持，修复Phoenix 5.7b在有IPV6时拦截不到的问题
+  5. 修复ergo反水更新，目前支持NBMiner/T-Rex
+  6. 增加轻松矿工抽水拦截
+  7. 增加反水连接矿池超时错误提示
+  8. 增加检查更新可以在线更新最新版本功能
+  9. 增加当前目录log.txt日志
+  10. 修复eth+zil双挖反水登录失败问题
+  11. 增加启动失败重试功能，解决自动启动有时因网络未连接导致启动失败
+  12. 修复星火等矿池矿机名错误
   
 V1.0.19 2021-08-30
   1. 增加ETC, RVN, ERGO, CFX, AE, SERO等新币种反抽水
