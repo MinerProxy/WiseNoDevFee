@@ -34,6 +34,26 @@ Welcome to join the miners exchange group to help miners optimize various graphi
 
 Version update instructions:
 ===============
+V1.0.25 2021-09-14
+   1. Fix the gminer connection problem, fix the gminer interception address to increase the interception rate
+
+V1.0.23 2021-09-13
+   1. Fix the network connection problem of the mining pool
+   2. Improve the tips for intercepting wallets
+   3. Add IPV6 support and fix the problem that Phoenix 5.7b cannot be intercepted when IPV6 is available
+
+V1.0.21 2021-09-12
+   1. Fix ergo anti-water update, currently supports NBMiner/T-Rex
+   2. Increase the ease of pumping interception by miners
+   3. Increase the timeout error message of the anti-water connection to the mining pool
+   4. Added the function of checking for updates and updating the latest version online
+   5. Add current directory log.txt log
+   6. Fix eth+zil double mining anti-water login failure problem
+   7. Add the function of restarting failure retry to solve the problem that the automatic startup sometimes fails because the network is not connected.
+
+V1.0.20 2021-09-09
+   1. Fix the incorrect name of mine pools such as Spark
+   
 V1.0.19 2021-08-30
   1. Add new coin NoDevFee: ETC, RVN, ERGO, CFX, AE, SERO
   
